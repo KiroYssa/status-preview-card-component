@@ -1,0 +1,28 @@
+@media screen and (max-width: 1280px) {
+  /* .imgDiv {
+    width: 50%;
+    height: 50%;
+  } */
+
+  body{
+    padding: 6rem 10rem;
+    text-align: center;
+  }
+  .mainDiv{
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding: 1.5rem;
+  }
+
+  .imgDiv{
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .testDiv{
+    grid-template-columns: repeat(1, 3fr);
+    grid-template-rows: repeat(3, 3fr);
+  }
+}

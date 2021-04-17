@@ -1,0 +1,94 @@
+body {
+  background: hsl(233, 47%, 7%);
+  font-family: 'Lexend Deca', sans-serif;
+  text-align: left;
+  color: #fff;
+  margin: 0px;
+  padding: 6rem 15rem;
+}
+
+/* font-family: 'Inter', sans-serif;
+  font-family: 'Lexend Deca', sans-serif; */
+* {
+  margin: 0px;
+  font-size: 15px;
+}
+
+main {
+  /* margin: 7rem; */
+  background: hsl(244, 38%, 16%);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* main div */
+.mainDiv {
+  padding: 4rem;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Inter', sans-serif;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+  font-size: 2.4rem;
+}
+
+.paragraph {
+  width: 90%;
+  margin: 1.2rem 0px 5rem 0px;
+  opacity: 0.5;
+}
+
+/* test div */
+/* test */
+.testDiv {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+
+.test {}
+
+.testHead {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.testParag {
+  font-weight: 400;
+  font-size: 0.9rem;
+  opacity: 0.5;
+}
+
+/* img div */
+.imgDiv {
+  padding: 0px;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-image: url("/images\image-header-desktop.jpg");
+  display: grid;
+}
+
+.imgDiv img {
+  opacity: 1;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.violetOverlay {
+  width: 100%;
+  height: 100%;
+  grid-column: 1/2;
+  grid-row: 1/3;
+  opacity: 0.6;
+  z-index: 1;
+  background-color: hsl(276, 80%, 25%);
+}
